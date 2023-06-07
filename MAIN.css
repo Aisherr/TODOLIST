@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    font-family: sans-serif ;
+    box-sizing: border-box;
+}
+input{
+    border: none;
+}
+
+#inputtask{
+    background-color:darkorange;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+    width: 300px;
+    color:white;
+}
+body{
+    background-color: cadetblue;
+    min-height: 100vh;
+    color: black;
+    
+}
+h1{
+    color:maroon;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+.addbtn{
+    width: 25%;
+    color:red;
+    background-color:blue;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    cursor: pointer;
+    background-color: cyan;
+    position: relative;
+    font-size:18px ;
+    padding: 12px 8px 12px 48px;
+    transition: 0.2s;
+
+}
+/*when clicked on background color and strike through*/
+ul li.checked{
+    background-color:grey;
+    color:black;
+    text-decoration:line-through;
+}
